@@ -4,9 +4,7 @@
   "main": "src/main.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "ts-node-dev ./src/index.ts -P tsconfig.json --no-cache",
-    "build:ts": "tsc -P tsconfig.json"
+    "build": "vite build"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
